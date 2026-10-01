@@ -1,0 +1,13 @@
+.components-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .components-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
