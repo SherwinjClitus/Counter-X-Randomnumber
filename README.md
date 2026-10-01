@@ -1,16 +1,87 @@
-# React + Vite
+# Counter X Random Number
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React utility app that combines a Counter and a Random Number Generator in one interactive interface. This project was built to practice React fundamentals, including state management, component structure, event handling, and dynamic user interface updates.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Increment counter
+- Decrement counter
+- Generate random numbers
+- Dynamic UI updates
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+- npm
 
-## Expanding the ESLint configuration
+## 🧠 React Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- useState
+- Event handling
+- Components
+- State updates
+- Dynamic rendering
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/SherwinjClitus/Counter-X-Randomnumber.git
+cd Counter-X-Randomnumber
+npm install
+npm run dev
+```
+
+After running the app, Vite will start the development server and open the project in the browser.
+
+## 🔢 How the Counter Works
+
+The counter uses React state to track the current value. The `+` button increases the count by 1, the `-` button decreases it by 1, and the UI re-renders automatically whenever the state changes. This demonstrates how component state drives interface updates in React.
+
+## 🎲 How the Random Number Generator Works
+
+The random number generator creates a value using JavaScript's `Math.random()` function, then updates a React state variable with the generated number. When the user clicks the generate button, the app computes a random integer and immediately displays it on the screen.
+
+## 📁 Project Structure
+
+```text
+Counter-X-Randomnumber/
+├── src/
+│   ├── components/
+│   │   ├── Counter.jsx
+│   │   ├── RandomNumber.jsx
+│   │   └── Header.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+├── .gitignore
+├── README.md
+└── package-lock.json
+```
+
+## 🎯 Learning Objective
+
+This project was created to practice React fundamentals, including working with state, handling events, composing reusable components, and updating the UI in response to user interaction.
+
+## 💡 Future Improvements
+
+- Improve visual styling and responsiveness
+- Add more utility components or interactive controls
+- Refine the user experience with clearer feedback and layout adjustments
+- Expand the project into a mini React practice dashboard
+
+## 👤 Author
+
+Sherwin Clitus
+
+---
+
+**Made with ❤️ by Sherwin**
