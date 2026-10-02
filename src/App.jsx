@@ -2,6 +2,7 @@ import "./App.css";
 import Counter from "./components/Counter";
 import Header from "./components/Header";
 import RandomNumber from "./components/RandomNumber";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Counter />
         <RandomNumber />
       </div>
+      <Analytics />
     </>
   );
 }
